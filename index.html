@@ -1,29 +1,112 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Network Foundation</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Network Foundation">
-        <link rel="canonical" href="https://networkfoundation.org">
-        <style>
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-                background-color: #f4f9e3;
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-        </style>
-    </head>
-    <body>
-        <center>
-            <a href="https://blog.donatas.net/about"><img src="logo.png"></a>
-        </center>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Network Foundation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Network Foundation">
+    <link rel="canonical" href="https://networkfoundation.org">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f4f9e3;
+            color: white;
+            padding: 1.5em 1em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0.5em 0 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2em auto;
+        }
+        .container a {
+            color: #305296;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        section h2 {
+            font-size: 1.8em;
+            color: #305296;
+            border-bottom: 2px solid #305296;
+            padding-bottom: 0.3em;
+        }
+        section p {
+            margin: 1em 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .cta a {
+            display: inline-block;
+            background: #305296;
+            color: white;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta a:hover {
+            background: #305296;
+        }
+        footer {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://blog.donatas.net/about"><img src="logo.png"></a>
+    </header>
+    <div class="container">
+        <section id="services">
+            <h2>How We Can Help</h2>
+            <ul>
+                <li><strong>Network Protocol Development:</strong> Custom implementations and optimizations for protocols like BGP, RIP, RIPng, OSPFv2, OSPFv3, etc.;</li>
+                <li><strong>Performance Optimization:</strong> Improving latency, throughput, and scalability of your network systems;</li>
+                <li><strong>Troubleshooting & Consulting:</strong> Identifying and resolving network inefficiencies and issues;</li>
+                <li><strong>Training & Workshops:</strong> Empowering teams with knowledge in protocol design and advanced networking concepts.</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2></h2>
+            <p>We've contributed to a range of projects, from optimizing global enterprise networks to creating open-source tools, e.g.:</p>
+            <ul>
+                <li><a href="https://frrouting.org">FRRouting</a></li>
+                <li><a href="https://github.com/Exa-Networks/exabgp">ExaBGP</a></li>
+                <li><a href="https://osrg.github.io/gobgp">GoBGP</a></li>
+                <li>Working closely with <a href="https://www.ietf.org">IETF</a></li>
+                <li>A member of <a href="https://balticnog.org">BalticNOG</a></li>
+            </ul>
+        </section>
+
+        <div class="cta">
+            <p>Ready to collaborate? Let's discuss your project needs.</p>
+            <a href="mailto:donatas.abraitis@gmail.com">Contact us</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Network Foundation. All rights reserved.</p>
+    </footer>
+</body>
 </html>
+
